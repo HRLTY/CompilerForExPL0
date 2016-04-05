@@ -20,7 +20,7 @@ Then input the file containing the source code, ex. `../test/test2`.
 
 After compilation, the object code (P-code) will be generated and saved in file `code`, and the interpreter will begin to interpreter the object code and output results.
 
-A detailed Design Document with various specifications is provided(in Chinese :D)
+A detailed design document with various specifications is provided (in Chinese :D)
 
 ####More about Pascal S Grammar
 
@@ -35,6 +35,7 @@ To quickly describe the language, we can compare it to the full-blown WIRTH P4 P
 - GOTO
 - WITH
 
+The complete BNF of Pascal-S can be found in [here](http://www.delphifeeds.com/go/s/10435).
 
 
 
