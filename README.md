@@ -12,6 +12,8 @@ Installation:
 
 `make`
 
+Note: Please make sure you have a c++11 supported compiler.
+
 Usage:
 
 `./pl0`
