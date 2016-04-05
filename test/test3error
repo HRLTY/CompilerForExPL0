@@ -1,0 +1,35 @@
+const c1 = '5';
+var i1 : integer; r1,r2 : real;
+   c2  : char;
+begin
+   i1 := c1;
+   i1 := +(-5+3);
+   r1 := c1 + 2.3;
+   if i1 = -2 then write("A");
+   if r1 = 55.3 then write("B");
+   i1 := -32;
+   r1 := -i1-1.3;
+   if r1 = 30.7 then write("C");
+   r1 := i1;
+   if r1 = -32 then write("D");
+   r1 := c1;
+   if r1 = c1 then write("E");
+   c2 := c1;
+   if c2 = 53 then write("F");
+      
+      i1 := -5*5.1;
+      i1 := r1;
+      c2 := i1;
+      c2 := r1;
+      c2 := i1 - c1;
+      i1 := i1 - c1;
+      c2 := r1 - i1;
+   
+      c1 := 2;
+
+      r1 := 1.3; i1 := -2;
+      
+   if c1 * (-i1 + r1) = (-(-(174.9))) then write("6")
+end.
+      
+      

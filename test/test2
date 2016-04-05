@@ -1,0 +1,25 @@
+const c1 = +1, c2 = +2,cc1 = 'a', cc2 = 'b';
+var r1, r2 : real;
+i1, i2 : integer;
+ch1, ch2 : char;
+
+function hehe:real;
+begin
+        hehe:=-6.3
+end;
+
+begin
+	r1 := cc2-cc1;
+	i1 := r1 + 5.3;
+	r2 := (r1 + 2.5) - 3;
+	i2 := cc1 * cc2;
+	ch1 := cc1+3;
+	write(r1);
+	write(i1);
+	write(r2);
+	write(i2);
+	write(ch1);
+	write(3.3);
+        write(hehe);
+        write("hahaha")
+end.

@@ -1,0 +1,41 @@
+const c1 = '5';
+var i1,i2 : integer; r1,r2 : real;
+   c2  : char;
+   ia : array [5] of integer;
+   ra : array [10] of real;
+   ca : array[10] of char;
+   
+begin
+   ca[c1-53] := ca[c1-53];
+   ca[0] := c1;
+   ia[1] := +(-5+3);
+   r1 := ca[0] + 2.3;
+   if ia[1] = -2 then write("A");
+   if r1 = 55.3 then write("B");
+   ia[2] := -32;
+   i2 := 1;
+   ra[i2 *(i2+1)] := -ia[i2+1]-1.3;
+   if ra[(i2 +3) / 2 ] = 30.7 then write("C");
+   r1 := ia[ca[0] - 51];
+   if r1 = -32 then write("D");
+   r1 := c1;
+   if r1 = c1 then write("E");
+   c2 := c1;
+   if c2 = 53 then write("F");
+      
+      ia[3] := -5*5.1;
+      ia[1] := ra[1];
+      ca[2] := i1;
+      ca[1] := r1;
+      c2 := ia[1] - ia[-3];
+      i1 := i1 - c1;
+      c2 := r1 - i1;
+   
+      c2 := 2;
+
+      r1 := 1.3; i1 := -2;
+      
+   if c1 * (-i1 + r1) = (-(-(174.9))) then write("6")
+end.
+      
+      

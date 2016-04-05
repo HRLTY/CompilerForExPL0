@@ -1,0 +1,31 @@
+const con1 = -5, con2 = 02, con3=-3;
+function l0(wai:real):char;
+begin
+     l0:=wai
+end;
+procedure l1(par1, par2 : integer);
+var i1,i2 : integer;
+   procedure l2(par3, par2 : integer);
+   var i3,i4 :  integer;
+   begin
+      i3 := par3;
+      write("in level2: ",i1);
+      write(par2+1);
+      write(con3);
+      write(l0(65.5))
+   end;
+   procedure l22(par3, par5 :integer );
+   begin
+      write("in level22: ",par3);
+   end;
+begin
+   i1 := par1
+   ;;;;;;;;;;;write("in level 1: ",i1);;;;;;;;;;;;;;;;;;
+   write(par2);
+   l2(par2, par1);
+   l22(par2,par1)
+end;
+begin
+   l1(con1, con2)
+end.
+      

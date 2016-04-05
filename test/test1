@@ -1,0 +1,71 @@
+const fir = +1, sec = +2, errorChar = 'X';
+var num1, num2 : integer;
+   result      : array[02] of integer;
+   tem         : integer;
+   r1, r2      : real;
+   c1, c2      : char;
+   ra          : array[5] of real;
+   ca          : array[2]of char;
+   ia          : array[3]of integer;
+function gcd(n1, n2: integer) : integer;
+var t : integer;
+begin
+   if n2 > n1 then
+      begin
+         t := n1;
+         n1 := n2;
+         n2 := t
+      end;
+   while n1 >= n2 do
+      n1 := n1 - n2;
+   if n1 = 0 then
+      gcd := n2
+   else
+      gcd := gcd(n2, n1);
+end;
+
+procedure lcm(num1, num2 : integer; var result : integer);
+var gcdT : integer;
+begin
+   gcdT := gcd(num1, num2);
+   result := num1 * num2 / gcdT
+end;
+
+procedure output;
+begin
+   write(" The greatest common divider of ", num1);
+   write(" and ",num2);
+   write(" is : ", result[0]+13-14+1);
+   write(" . Their lowest common multiple is: ", result[1]);
+   write(". ->Program complete. bye!")
+end;
+
+procedure wrong(num : integer);
+var i : integer;
+begin
+   for i := 0 to 100 / 5 do
+      write(errorChar);
+   write(" The num ",num);
+   write(" is not positive. Program halted! bye!")
+end;  
+
+begin
+   write("please write number ", fir);
+   write(" and number ", sec);
+   write("---> ");
+   read(num1,num2);
+   ia[1]:=num1;ia[2]:=num2;
+   if ia[1] > 0 then
+      if ia[2] >= 1 then
+         begin
+            ra[0]:=ia[1];
+            result[0] := gcd(ia[1], ia[2]);
+            lcm(num1, num2, c2);
+            result[1] := c2;
+            output
+         end
+else
+         wrong(sec)
+   else
+      wrong(fir)
+end.

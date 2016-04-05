@@ -1,0 +1,19 @@
+# Added from https://raw.githubusercontent.com/github/gitignore/master/C++.gitignore
+*.slo
+*.lo
+*.o
+*.obj
+*.gch
+*.pch
+*.so
+*.dylib
+*.dll
+*.mod
+*.lai
+*.la
+*.a
+*.lib
+*.exe
+*.out
+*.app
+build/
