@@ -2,6 +2,8 @@
 
 The extended PL/0 grammar is similar to Pascal S grammar (more details below).
 
+Some example source codes of the grammar are provided in `test/`.
+
 Installation:
 
 `mkdir build`
