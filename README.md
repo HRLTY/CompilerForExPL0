@@ -4,7 +4,7 @@ The extended PL/0 grammar is similar to Pascal S grammar (more details below).
 
 Some example source codes of the grammar are provided in `test/`.
 
-If you have any question, feel free to reach me at huangrui@buaa.edu.cn. You can find more about me at [my blog](hrlty.github.io).
+######If you have any question, feel free to reach me at huangrui@buaa.edu.cn. You can learn more about me from [my CV](http://hrlty.github.io/about/).
 
 Installation:
 
