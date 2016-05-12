@@ -43,5 +43,19 @@ To quickly describe the language, we can compare it to the full-blown WIRTH P4 P
 
 The complete BNF of Pascal-S can be found in [here](http://www.delphifeeds.com/go/s/10435).
 
+License:
+
+Copyright (C) 2016 by Rui Huang huangrui@buaa.edu.cn
+
+The program CompilerForExPL0 is licensed under the GNU General Public License.
+
+CompilerForExPL0 is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+
+CompilerForExPL0 is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with CompilerForExPL0. If not, see http://www.gnu.org/licenses/.
+
+
+
 
 
